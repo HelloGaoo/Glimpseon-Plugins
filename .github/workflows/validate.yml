@@ -12,3 +12,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/check.py
+      - name: purge jsDelivr
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: curl -s "https://purge.jsdelivr.net/gh/HelloGaoo/Glimpseon-Plugins@main/plugins.json" > /dev/null
