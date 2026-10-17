@@ -1,7 +1,7 @@
 {
   "name": "Glimpseon 插件索引",
   "apiVersion": 1,
-  "updatedAt": "2026-10-15T14:06:16Z",
+  "updatedAt": "2026-10-17T03:36:11Z",
   "plugins": [
     {
       "id": "com.example.sample",
@@ -18,7 +18,8 @@
         "downloadUrl": "https://github.com/HelloGaoo/Glimpseon-Plugins/releases/download/v1.0.0-sample/com.example.sample.gplugin",
         "sha256": "e12bddf08f7d55fc8267057829a8612ccdbbfc586f33b0c481209c90591cbc55",
         "publishedAt": "2026-10-15T13:46:06Z"
-      }
+      },
+      "iconUrl": "https://cdn.jsdelivr.net/gh/HelloGaoo/Glimpseon-Plugins@main/icons/com.example.sample.png"
     }
   ]
 }
